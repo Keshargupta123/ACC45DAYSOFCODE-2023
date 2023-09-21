@@ -1,0 +1,9 @@
+X=int(input("input today's daily goal:"))
+Y=int(input("number of chocolates he sells:"))
+c=0
+if X>Y:
+   c=X*1
+  print(c,"is the amount he made")
+else: 
+    c=X*1+Y*2
+    print(c,"is the amount he made")
