@@ -1,0 +1,6 @@
+X=int(input("Input the 'following' count of the account:"))
+Y=int(input("Input the 'followers' count of this account:"))
+if X>10*Y:
+    print("Yes, spam!!")
+else:
+    print("No, not spam!")
