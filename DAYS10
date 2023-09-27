@@ -1,0 +1,4 @@
+X=int(input("Input chef's money"))
+Y=int(input("Input cost of chocolate"))
+c=X/Y
+print("chef should buy", c,"chocolates")
