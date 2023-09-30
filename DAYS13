@@ -1,0 +1,12 @@
+A=int(input("input the units of power required by chefland:"))
+B=int(input("input the no. of years for which chefland requires power:"))
+tcpower=A*B
+print("The total amount of power needed by Chefland is:",tcpower)
+X=int(input("Please input the amount of Helium-3 on moon (in grams):"))
+Y=int(input("Please input the units of power 1g of Helium-3 provides:"))
+tmpower=X*Y
+print("The total power that can be provided by Helium-3 on moon is:",tmpower)
+if tmpower>=tcpower:
+    print("Yes!")
+if tmpower<tcpower:
+    print("No!")
