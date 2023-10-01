@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    int T;
+    scanf("%d", &T);
+
+    while (T) {
+        int X, Y;
+        scanf("%d %d", &X, &Y);
+
+        int result = min_moves_to_reach_stair(X, Y);
+        printf("%d\n", result);
+    }
+
+    return 0;
+}
