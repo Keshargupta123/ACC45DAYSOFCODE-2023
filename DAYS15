@@ -1,0 +1,10 @@
+N=int(input("the total number of cards kept on the table"))
+X=int(input("the total number of cards kept faceup"))
+fdown=N-X
+if X>=fdown:
+    print(fdown,"cards must be flipped")
+else:
+    if X<fdown:
+        print(X,"cards must be flipped")
+    if X==0 or X==N:
+        print("no need to perform any operation.")
