@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+ int main() {
+              int num1,num2;
+              float q1,q2,r1,r2;
+              printf (" Enter the first number:\n");
+              scanf ("%d",&num1);
+              printf ("Enter the second number:\n");
+              scanf ("%d",&num2);
+              q1=num1/num2;
+              r1=num1%num2;
+              q2=num2/num1;
+              r2=num2%num1;
+              num1>num2?printf("Quaitient=%d\n",q1): printf("Quaitient=%d\n",q2);
+              num1>num2?printf("Remainder=%f\n",r1):printf("Remainder=%f\n",r2);
+
+    return 0;
+}
