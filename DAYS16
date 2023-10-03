@@ -11,7 +11,7 @@
               r1=num1%num2;
               q2=num2/num1;
               r2=num2%num1;
-              num1>num2?printf("Quaitient=%d\n",q1): printf("Quaitient=%d\n",q2);
+              num1>num2?printf("Quaitient=%f\n",q1): printf("Quaitient=%f\n",q2);
               num1>num2?printf("Remainder=%f\n",r1):printf("Remainder=%f\n",r2);
 
     return 0;
