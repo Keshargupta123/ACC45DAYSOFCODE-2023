@@ -1,0 +1,15 @@
+seat=int(input("Please input your seat number:"))
+if seat>=1 and seat<=10:
+    print("Your seat is in the lower deck and is double seated. So,")
+    print("Lower Double")
+elif seat>=11 and seat<=15:
+    print("Your seat is in the lower deck and is single seated. So,")
+    print("Lower Single")
+elif seat>=16 and seat<=25:
+    print("Your seat is in the upper deck and is double seated. So,")
+    print("Upper Double")
+elif seat>=26 and seat<=30:
+    print("Your seat is in the upper deck and is single seated. So,")
+    print("Upper Single")
+else:
+    print("Sorry! This seat number is not available in the bus.")
