@@ -1,0 +1,27 @@
+X=int(input("Please input the current volume of the TV:"))
+Y=int(input("Please input the volume chef wants to change to:"))
+buttonpress=0
+t=True
+while t:
+    if X>Y and Y>=0 and X>=0:
+        X=X-1
+        buttonpress+=1
+        if X==Y:
+            print("So, the minimum button presses required to change volume to",Y,"is:",buttonpress)
+            t=False
+    elif X<Y and Y>=0 and X>=0:
+        X=X+1
+        buttonpress+=1
+        if X==Y:
+            print("So, the minimum button presses required to change volume to",Y,"is:",buttonpress)
+            t=False
+    elif Y<0:
+        print("Can't lower the volume below 0!")
+        t=False
+    elif X<0:
+        print("The T.V. volume can't be negative!")
+        t=False
+    else:
+        if X==Y:
+            print("The volume is same!! So the minimum button presses=0")
+            t=False
