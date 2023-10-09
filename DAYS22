@@ -1,0 +1,13 @@
+X=int(input("Weight of 1 mango:"))
+Y=int(input("Weight of the truck:"))
+Z=int(input("Weight the bridge can withstand:"))
+max_mangoes=0
+t=True
+while t:
+    Y=Y+X
+    max_mangoes+=1
+    if Y>Z:
+        Y=Y-X
+        max_mangoes-=1
+        t=False
+print("The maximum number of mangoes that can be loaded into the truck:",max_mangoes)
