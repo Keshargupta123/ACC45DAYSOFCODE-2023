@@ -1,0 +1,11 @@
+N=int(input("total number of loaves of bread with Eikooc:"))
+M=int(input("number of days after which they will expire:"))
+K=int(input("total number of loaves of bread she eats in a day:"))
+for i in range(M):
+    N=N-K
+    if i==M-1:
+        if N>0:
+            print("No!")
+        else:
+            if N<=0:
+                print("Yes!")
