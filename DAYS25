@@ -1,0 +1,12 @@
+X1=int(input("cost of tiling the floor for the first style:"))
+Y1=int(input("cost of painting the walls for the first style:"))
+X2=int(input("cost of tiling the floor for the second style:"))
+Y2=int(input("cost of painting the walls for the second style:"))
+costf=X1+Y1
+costs=X2+Y2
+if costf<costs:
+    print("chef should pay an amount of",costf)
+elif costs<costf:
+    print("chef should pay an amount of",costs)
+else:
+    print("same cost of styles")
